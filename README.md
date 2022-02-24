@@ -33,6 +33,7 @@ After the table of Vine Reviews was loaded, the dataset was further refined to h
 ### Calculations
 
 The following calculations were completed.
+
 ![5.PNG](https://github.com/mathur-nikita/Amazon_Vine_Analysis/blob/main/screenshots/5.JPG)
 
 - How many Vine reviews and non-Vine reviews were there?
@@ -45,8 +46,10 @@ The following calculations were completed.
 
 - What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
   - 51% of Vine reviews were 5-star reviews.
-  - 39% of Vine reviews were 5-star reviews.
+  - 39% of non-Vine reviews were 5-star reviews.
 
 ## Summary
 
-In your summary, state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. Then, provide one additional analysis that you could do with the dataset to support your statement.
+Based on the results from this analysis, it would seem that there is potentially a slight positivity bias for reviews in the Vine program.  Just over half of the reviews of Vine members had 5 stars, but the percentage of non-Vine reviews was ~10% lower.  
+
+Our current analysis looks at reviews from purchasers who are Vine members and those who aren't, but we could also take a look at the "verified_purchase" column to see if Vine members are more likely to leave certain reviews based on their verified member status.  We could also see if existing Vine members who left reviews have left ones that readers would find useful via the "helpful_votes" column.  We are also only considering 5-star reviews in our analysis, but we could adjust that to include 4-star reviews to see how positively Vine members and non-Vine members tend to respond.
