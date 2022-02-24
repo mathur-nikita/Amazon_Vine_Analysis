@@ -11,7 +11,7 @@ We are tasked with analyzing Amazon reviews written by members of the paid Amazo
 - Google Colab 
 - PySpark
 - AWS
-- https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Video_Games_v1_00.tsv.gz
+- Amazon Reivew Dataset for Video Games (https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Video_Games_v1_00.tsv.gz)
 - screenshots
 
 ## Results
